@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(3, 3, 35);
+    color: white;
+}
+nav{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(34, 34, 78);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+    color:rgb(123, 123, 200);
+    font-size: 1.05rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.right{
+    font-size: 1.02rem;
+}
+.firstsection{
+      display: flex;
+      justify-content: space-around;
+      margin: 60px 0;
+
+}
+.firstsection>div{
+    width: 30%;
+}
+.leftsection{
+ margin-top: 50px;
+    
+    font-size: 3rem;
+}
+.button button:hover{
+    background-color: rgb(85, 85, 139);
+    font-size: 1.05rem;
+
+}
+.rightsection{
+    
+    width: 60%;
+    
+}
+.contactform{
+    padding: 20px 0;
+    padding-left: 30px;
+}
+.contactform form div{
+    padding : 15px 0;
+    font-size: large;
+}
+.btn {
+  background-color: aqua;
+  border-radius: 22px;
+  cursor: pointer;
+  font-size:21px;
+}
